@@ -1,406 +1,611 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nitish - Portfolio</title>
-    <link rel="icon" type="image/png" href="images/icons/fevicon.png" sizes="100x100">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitish — Data Scientist & ML Engineer</title>
+  <meta name="description" content="Portfolio of Nitish — Data Scientist, ML Engineer, and Software Developer based in Gurugram, India.">
+  <link rel="icon" type="image/png" href="images/icons/fevicon.png" sizes="100x100">
 
-    <link rel="stylesheet" href="diddysstyle.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div id="welcome-overlay">
-        <div class="welcome-content">
-        <span class="welcome-text">Welcome</span>
-        <div class="loadere">
-          <div class="cell d-0"></div>
-          <div class="cell d-1"></div>
-          <div class="cell d-2"></div>
-          <div class="cell d-1"></div>
-          <div class="cell d-2"></div>
-          <div class="cell d-2"></div>
-          <div class="cell d-3"></div>
-          <div class="cell d-3"></div>
-          <div class="cell d-4"></div>
-        </div>
-        </div>
+  <!-- ░░ WELCOME OVERLAY ░░ -->
+  <div id="welcome-overlay">
+    <div class="welcome-logo">nitish<span>.</span></div>
+    <div class="welcome-bar-track">
+      <div class="welcome-bar-fill"></div>
     </div>
-    <!-- Header & Navigation -->
-    <header>
-        <nav class="container">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#stack">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            <label class="switch" id="darkModeToggle">
-              <input id="checkbox" type="checkbox">
-              <span class="slider">
-                <div class="star star_1"></div>
-                <div class="star star_2"></div>
-                <div class="star star_3"></div>
-                <svg viewBox="0 0 16 16" class="cloud_1 cloud">
-                  <path
-                    transform="matrix(.77976 0 0 .78395-299.99-418.63)"
-                    fill="#fff"
-                    d="m391.84 540.91c-.421-.329-.949-.524-1.523-.524-1.351 0-2.451 1.084-2.485 2.435-1.395.526-2.388 1.88-2.388 3.466 0 1.874 1.385 3.423 3.182 3.667v.034h12.73v-.006c1.775-.104 3.182-1.584 3.182-3.395 0-1.747-1.309-3.186-2.994-3.379.007-.106.011-.214.011-.322 0-2.707-2.271-4.901-5.072-4.901-2.073 0-3.856 1.202-4.643 2.925"
-                  ></path>
-                </svg>
-              </span>
-            </label>
-            </ul>
-        </nav>
-    </header>
+    <div class="welcome-status">initializing...</div>
+  </div>
 
-<!-- Hero Section -->
-<section id="home" class="hero">
-    <img src="images/bg-port.jpg" id="bg-image" alt="Portfolio background image">
-
-    <div class="hero-content-col">
-        <div class="hero-content">
-            <h0n>Hi, I'm Nitish</h0n>
-            <h1>your go-to</h1>
-            <p id="typing-tagline"></p>
-            <a href="#projects" class="cssbuttons-io" aria-label="View My Work">
-                <span>View My Work</span>
-            </a>
-        </div>
-
-        <div class="scroll-down">
-            <a href="#about" class="cssbuttons-io"><span>Scroll</span></a>
-        </div>
-    </div>
-</section>
-
-<!-- About Section -->
-<section id="about">
-    <div class="container about-content">
-        <div class="container1">
-            <div class="skill-box">
-                <span class="title">Python</span>
-                <div class="skill-bar">
-                    <span class="skill-per html" style="--skill-per-width: 80%;">
-                        <!---<span class="tooltip">80%</span>--->
-                    </span>
-                    <span class="skill-progress"></span>
-                </div>
-            </div>
-      
-            <div class="skill-box">
-                <span class="title" >SQL</span>
-                <div class="skill-bar">
-                    <span class="skill-per sql" style="--skill-per-width: 70%;">
-                        <!---<span class="tooltip">80%</span>--->
-                    </span>
-                    <span class="skill-progress"></span>
-                </div>
-            </div>
-            <div class="skill-box">
-                <span class="title">JavaScript</span>
-                <div class="skill-bar">
-                    <span class="skill-per javascript" style="--skill-per-width: 40%;">
-                        <!---<span class="tooltip">40%</span>--->
-                    </span>
-                    <span class="skill-progress"></span>
-                </div>
-            </div>
-            <div class="skill-box">
-                <span class="title">C++</span>
-                <div class="skill-bar">
-                    <span class="skill-per nodejs" style="--skill-per-width: 60%;">
-                        <!---<span class="tooltip">60%</span>--->
-                    </span>
-                    <span class="skill-progress"></span>
-                </div>
-            </div>
-        </div>
-        <div class="about-card">
-            <img src="images/mepic.png" alt="Nitish" style = "height: 290px; width: 300px;">
-            <a href="images/Nitish-Resume-SkillUpTech.pdf" class="cssbuttons-io cv-btn" target="_blank" aria-label="Open CV">
-                <span>Open CV</span>
-            </a>
-            <style>.about-image {position: relative;} .cv-btn {position: relative; width: 300px; height: 60px; right: 5px; bottom: 50px;}</style>
-        </div>
-        <div class="card-container">
-            <div class="cards1">
-                <p><span>Background</span>
-                    <span class="desc">B.Tech. in Computer Engineering (Data Science) YMCA Faridabad (2020-2024)</span></p>
-                <p><span>Approach</span>
-                    <span class="desc">Story Telling patterns in data. Value well-documented code and efficiency in results.</span></p>
-                <p><span>Passions</span>
-                    <span class="desc">Enjoying new challenges, building personal projects, modding and problem-solving. Always learning new stuff in tech.</span></p>
-                <p><span>Open Source</span>
-                    <span class="desc">Contributor to Mindustry fan expansion packs, improve features, code quality, and user experience.</span></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <!-- Tech Stack Section -->
-    <section id="stack" class="tech-stack-section">
-        <div class="container">
-            <div class="tech-stack-header">
-                <h2>
-                    Solving real problems with<br>
-                    <span class="tech-stack-animated" id="stack-animated-text">constantly expanding skills</span>
-                </h2>
-            </div>
-                        <div class="tech-stack-grid">
-                <div class="tech-stack-outer" data-tech="Machine Learning" data-color="#FFB300">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/ml.gif" alt="ML models">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="JavaScript" data-color="#3C873A">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/nodejs.png" alt="Node.js">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="Web Sockets" data-color="#808080">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/socket.gif" alt="WebSockets">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="Tableau" data-color="#47A248">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/stats.gif" alt="Tableau">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="Python" data-color="#3572A5">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/python1.png" alt="Python">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="Natural Language Processing" data-color="#8E44AD">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/nlp.gif" alt="NLP">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="Neural Networks" data-color="#E74C3C">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/neural.gif" alt="Neural Networks">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="Git" data-color="#F05032">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/git.png" alt="Git">
-                    </div>
-                </div>
-                <div class="tech-stack-outer" data-tech="SQL" data-color="#336791">
-                    <div class="tech-stack-item">
-                        <img src="images/skills/sql.gif" alt="SQL">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- Project Section -->
-<section id="projects">
-    <div class="container project-layout-container">
-
-        <!-- === Left Column: Stacked Project List === -->
-        <div class="project-stack-column">
-            <h2>My Projects</h2>
-            <div class="project-stack-container" id="project-list">
-
-                <!-- Project Card 1: Real-Time Chat App -->
-                <!-- <a href="#project-details-pane" class="project-card-link"> -->
-                    <div class="project-card"
-                        data-project-id="chat-app"
-                        data-title="Real-Time Chat Application"
-                        data-img-src="images/Rtca.png"
-                        data-icon-src="images/icons/chat1.gif"
-                        data-description="<b>Goal:</b> Developed a real-time chat application to facilitate instant messaging between users.<br><b>How:</b> Utilized Socket.IO for real-time communication, Express.js for server-side logic, and React for the front-end interface.<br><b>Result:</b> Achieved near-instant message delivery (typically under 100ms latency) in real-world testing. Supported seamless messaging for multiple users simultaneously."
-                        data-tags='["Socket.IO", "WebSockets", "React", "Node.js", "Express.js"]'
-                        data-live-link="chat-app/index.html"
-                        data-github-link="https://github.com/NastyMafia/realtime-chat-app">
-                        <div class="card-header">
-                            <img src="images/icons/chat1.gif" alt="" class="card-header-icon">
-                            <h3>Real-Time Chat Application</h3>
-                        </div>
-                        <div class="card-preview">
-                            <img src="images/Rtca.png" alt="Real-Time Chat Application Preview">
-                            <div class="project-tags">
-                                <span class="tag">Socket.IO</span><span class="tag">WebSockets</span><span class="tag">React</span><span class="tag">Node.js</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Project Card 2: Insurance Claim -->
-                <a href="#project-details-pane" class="project-card-link">
-                    <div class="project-card"
-                         data-project-id="insurance-claim"
-                         data-title="Insurance Claim Prediction"
-                         data-img-src="images/output3.png"
-                         data-icon-src="images/icons/insurance1.gif"
-                         data-description="<b>Goal:</b> Developed a machine learning web application to predict whether an insurance claim would be approved.<br><b>How:</b> Trained multiple classification models including Decision Trees and Random Forest. Used Matplotlib for data visualization and deployed the best-performing model.<br><b>Result:</b> Achieved a model accuracy of 87%, leading to a 20% improvement over baseline predictions."
-                         data-tags='["ML models", "Regression", "Decision Trees", "Pandas", "Matplotlib"]'
-                         data-github-link="https://github.com/NastyMafia/Insurance-Claim-Prediction">
-                        <div class="card-header">
-                            <img src="images/icons/insurance1.gif" alt="" class="card-header-icon">
-                            <h3>Insurance Claim Prediction</h3>
-                        </div>
-                        <div class="card-preview">
-                            <img src="images/output3.png" alt="Insurance Claim Prediction Preview">
-                            <div class="project-tags">
-                                <span class="tag">ML models</span><span class="tag">Regression</span><span class="tag">Pandas</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <!-- Project Card 3: Handwritten Digit -->
-                <a href="#project-details-pane" class="project-card-link">
-                    <div class="project-card"
-                         data-project-id="digit-recognition"
-                         data-title="Handwritten Digit Recognition"
-                         data-img-src="images/HDR1.png"
-                         data-icon-src="images/icons/digit1.gif"
-                         data-description="<b>Goal:</b> Built a machine learning model to accurately recognize and classify handwritten digits (0–9) using the MNIST dataset.<br><b>How:</b> Preprocessed image data, applied feature scaling, and trained multiple models including Logistic Regression, SVM, and a basic Neural Network.<br><b>Result:</b> Achieved 97% accuracy on the test set. Successfully recognized handwritten digits in real-time input."
-                         data-tags='["Python", "TensorFlow", "Keras", "CNNs", "Deep Learning"]'
-                         data-github-link="https://github.com/NastyMafia/HDR">
-                        <div class="card-header">
-                            <img src="images/icons/digit1.gif" alt="" class="card-header-icon">
-                            <h3>Handwritten Digit Recognition</h3>
-                        </div>
-                        <div class="card-preview">
-                            <img src="images/HDR1.png" alt="Handwritten Digit Recognition Preview">
-                            <div class="project-tags">
-                                <span class="tag">Python</span><span class="tag">TensorFlow</span><span class="tag">CNNs</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                 <!-- Project Card 4: Sentiment Analysis -->
-                 <a href="#project-details-pane" class="project-card-link">
-                     <div class="project-card"
-                          data-project-id="sentiment-analysis"
-                          data-title="Sentiment Analysis"
-                          data-img-src="images/senti_img1.png"
-                          data-icon-src="images/icons/sentiment1.gif"
-                          data-description="<b>Goal:</b> Developed a model to detect public sentiment in social media posts, focusing on depressive or negative content.<br><b>How:</b> Cleaned and pre-processed tweets using NLTK, implemented Logistic Regression, and visualized patterns with WordCloud and Matplotlib.<br><b>Result:</b> Achieved 82% accuracy, with improved detection of depressive posts on 10,000+ tweets."
-                          data-tags='["Python", "NLTK", "Matplotlib", "Wordcloud", "NLP"]'
-                          data-github-link="https://github.com/NastyMafia/Sentiment_Analysis">
-                        <div class="card-header">
-                            <img src="images/icons/sentiment1.gif" alt="" class="card-header-icon">
-                            <h3>Sentiment Analysis</h3>
-                        </div>
-                         <div class="card-preview">
-                             <img src="images/senti_img1.png" alt="Sentiment Analysis Preview">
-                             <div class="project-tags">
-                                 <span class="tag">Python</span><span class="tag">NLTK</span><span class="tag">NLP</span>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-
-                <!-- Project Card 5: Sales Analysis -->
-                <a href="#project-details-pane" class="project-card-link">
-                     <div class="project-card"
-                          data-project-id="sales-analysis"
-                          data-title="Sales Analysis"
-                          data-img-src="images/SA1.png"
-                          data-icon-src="icons/sales1.gif"
-                          data-description="<b>Goal:</b> Analyse historical sales data to uncover patterns and forecast future trends.<br><b>How:</b> Performed EDA using Pandas, Seaborn, and Matplotlib; built interactive dashboards with Tableau and Power BI.<br><b>Result:</b> Identified key trends and top-performing regions, resulting in a 15% improvement in forecast accuracy."
-                          data-tags='["Python", "Pandas", "Matplotlib", "Seaborn", "Tableau/PowerBI", "EDA"]'
-                          data-github-link="https://github.com/NastyMafia/Sales_Analysis">
-                        <div class="card-header">
-                            <img src="images/icons/sales1.gif" alt="" class="card-header-icon">
-                            <h3>Sales Analysis</h3>
-                        </div>
-                         <div class="card-preview">
-                             <img src="images/SA1.png" alt="Sales Analysis Preview">
-                             <div class="project-tags">
-                                <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">EDA</span>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-            </div>
-        </div> <!-- End project-stack-column -->
-
-        <!-- === Right Column: Project Description === -->
-        <div class="project-description-column" id="project-details-pane">
-            <div class="description-content sticky-top">
-                <img src="https://optim.tildacdn.one/tild6538-6537-4534-b334-393965303361/-/format/webp/sn_sf11.png.webp" alt="Project main image" id="project-detail-image" class="detail-image">
-                <h3 id="project-detail-title">My Projects</h3> <!-- Default Title -->
-                <div id="project-detail-description" class="detail-description"><p>Select a project from the list to see details.</p></div> <!-- Default Desc -->
-                <div id="project-detail-tags" class="project-tags detail-tags"></div>
-                <div id="project-detail-buttons" class="project-buttons detail-buttons">
-                    <a href="#" id="project-detail-live-link" class="pushable" target="_blank" style="display: none;">
-                        <span class="shadow"></span>
-                        <span class="edge" style = "background: linear-gradient(to right, #16c447, #08c92b);"></span>
-                        <span class="front" style="background-color: #17f055; color: #fff;"> Open App </span></a>
-                    <a href="#" id="project-detail-github-link" class="pushable" target="_blank">
-                        <span class="shadow"></span>
-                        <span class="edge"></span>
-                        <span class="front" style="background-color: #00f1e1; color: #fff;"> <\> Source Code </span></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact">
+  <!-- ░░ HEADER ░░ -->
+  <header>
     <div class="container">
-        <h2>Get In Touch</h2>
-        <p>Have a project in mind or just want to say hi? Feel free to reach out!</p>
-        <div class="contact-form">
-            <p>You can reach me via email at:</p>
-            <a href="mailto:nitishrohilla77624@gmail.com" class="contact-email">
-                <i class="fas fa-envelope"></i> nitishrohilla77624@gmail.com
-            </a>
-            <p>Or find me on:</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/nitish-rohilla/" target="_blank" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/NastyMafia" target="_blank" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://wa.me/917206368408" target="_blank" title="WhatsApp">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+      <a href="#home" class="logo">nr<span>_</span></a>
 
-    <!-- Footer -->
-<footer>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"></button>
+          </li>
+        </ul>
+      </nav>
+
+      <button id="menu-btn" class="menu-btn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="home" class="hero">
     <div class="container">
-         <p>© 2025 Nitish</p>
-    </div>
-</footer>
+      <div class="hero-content">
 
-    <!-- Project Details Modal -->
-    <div id="projectModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">×</span>
-            <img id="modalImg" src="" alt="Project Image">
-            <h3 id="modalTitle"></h3>
-            <p id="modalDescription"></p>
-            <a id="modalLink" href="#" class="btn btn-secondary" target="_blank" style="display: none;">Visit Project Site</a>
+        <div class="hero-eyebrow">Available for opportunities</div>
+
+        <h1>
+          Hi, I'm <span class="accent">Nitish</span><br>
+          your go-to
+        </h1>
+
+        <p class="hero-tagline">
+          <span id="typing-text"></span><span id="cursor"></span>
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="images/Nitish_Resume_2025.pdf" class="btn-ghost" target="_blank" rel="noopener">
+            <i class="fas fa-file-lines" style="margin-right:6px;"></i>Resume
+          </a>
         </div>
-    </div>
-    <script src="script.js"></script>
 
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label reveal">About</div>
+      <h2 class="section-title reveal reveal-delay-1">Turning data into<br>decisions.</h2>
+
+      <div class="about-grid">
+
+        <!-- Photo -->
+        <div class="bento bento-photo reveal">
+          <img src="images/mepic.jpg" alt="Nitish" loading="lazy">
+          <div class="bento-photo-overlay">
+            <div class="name">Nitish Rohilla</div>
+            <div class="role">Associate Data Scientist</div>
+          </div>
+        </div>
+
+        <!-- Bio -->
+        <div class="bento bento-bio reveal reveal-delay-1">
+          <p>
+            I'm a <strong>Data Scientist & ML Engineer</strong> based in Gurugram, India,
+            currently working at <strong>SkillUpTech</strong>. I specialize in end-to-end
+            AI solutions — from NLP pipelines and LLM fine-tuning to cloud deployments
+            on AWS and GCP.
+          </p>
+          <p>
+            I hold a <strong>B.Tech in Computer Engineering (Data Science)</strong> from
+            J.C. Bose University, YMCA Faridabad. I'm driven by the challenge of turning
+            messy, real-world data into clear, actionable insights.
+          </p>
+          <p>
+            Outside of work, I contribute to open-source game mods, build personal
+            projects, and always have something new in the queue to learn.
+          </p>
+          <div style="margin-top:24px; display:flex; gap:10px; flex-wrap:wrap;">
+            <a href="mailto:Nitishrohilla77624@gmail.com" class="btn-primary" style="font-size:0.72rem; padding:9px 18px;">
+              <i class="fas fa-envelope" style="margin-right:6px;"></i>Get in touch
+            </a>
+            <a href="images/Nitish_Resume_2025.pdf" class="btn-ghost" target="_blank" rel="noopener" style="font-size:0.72rem; padding:8px 16px;">
+              <i class="fas fa-download" style="margin-right:6px;"></i>Resume
+            </a>
+          </div>
+        </div>
+
+        <!-- Skill bars -->
+        <div class="bento bento-skills reveal reveal-delay-2">
+          <h4>Core Skills</h4>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name">Python</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name">SQL</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" style="width: 80%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name">ML / Deep Learning</span>
+              <span class="skill-pct">78%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" style="width: 78%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name">LLM Fine-Tuning / RAG</span>
+              <span class="skill-pct">72%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" style="width: 72%;"></div>
+            </div>
+          </div>
+
+          <div class="skill-row">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript / C++</span>
+              <span class="skill-pct">55%</span>
+            </div>
+            <div class="skill-track">
+              <div class="skill-fill" style="width: 55%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="bento bento-stats reveal reveal-delay-3">
+          <div class="stat-item">
+            <div class="stat-number">1<span>yr+</span></div>
+            <div class="stat-label">Professional ML experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">6<span>+</span></div>
+            <div class="stat-label">Projects shipped</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3<span></span></div>
+            <div class="stat-label">Cloud platforms (AWS, GCP, n8n)</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS MARQUEE ░░ -->
+  <section id="stack">
+    <div class="container section-header">
+      <div class="section-label reveal">Tech Stack</div>
+      <h2 class="section-title reveal reveal-delay-1">Tools I work with.</h2>
+    </div>
+
+    <div class="marquee-wrapper">
+      <!-- Row 1 -->
+      <div class="marquee-track">
+        <div class="skill-chip"><img src="images/skills/python1.png" alt="Python"><span>Python</span></div>
+        <div class="skill-chip"><img src="images/skills/ml.gif" alt="Machine Learning"><span>Machine Learning</span></div>
+        <div class="skill-chip"><img src="images/skills/neural.gif" alt="Deep Learning"><span>Deep Learning</span></div>
+        <div class="skill-chip"><img src="images/skills/nlp.gif" alt="NLP"><span>NLP / spaCy</span></div>
+        <div class="skill-chip"><img src="images/skills/sql.gif" alt="SQL"><span>SQL</span></div>
+        <div class="skill-chip"><img src="images/skills/nodejs.png" alt="Node.js"><span>Node.js</span></div>
+        <div class="skill-chip"><img src="images/skills/git.png" alt="Git"><span>Git</span></div>
+        <div class="skill-chip"><img src="images/skills/stats.gif" alt="Tableau"><span>Tableau / Power BI</span></div>
+        <div class="skill-chip"><img src="images/skills/socket.gif" alt="WebSockets"><span>WebSockets</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">☁️</span><span>AWS SageMaker</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🔷</span><span>GCP Vertex AI</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🤗</span><span>HuggingFace</span></div>
+      </div>
+
+      <!-- Row 2 (reverse) -->
+      <div class="marquee-track reverse">
+        <div class="skill-chip"><span style="font-size:1.1rem;">🔗</span><span>LangChain</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">⚡</span><span>PyTorch</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🧩</span><span>QLoRA / PEFT / TRL</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🔄</span><span>n8n Automation</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">📊</span><span>Pandas / Matplotlib</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🌐</span><span>Flask / Express</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🐳</span><span>Docker / Lambda</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">💡</span><span>RAG Pipelines</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🎯</span><span>Seaborn / WordCloud</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🤖</span><span>Gemini / OpenAI API</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">📐</span><span>C++ / JavaScript</span></div>
+        <div class="skill-chip"><span style="font-size:1.1rem;">🧠</span><span>Vector Search</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ EXPERIENCE ░░ -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-label reveal">Experience</div>
+      <h2 class="section-title reveal reveal-delay-1">Where I've worked.</h2>
+
+      <div class="exp-item reveal">
+        <div class="exp-meta">
+          <div class="exp-period">March 2025 — March 2026</div>
+          <div class="exp-company">SkillUpTech</div>
+        </div>
+        <div class="exp-content">
+          <h3>Associate Data Scientist</h3>
+          <p>
+            Spearheaded end-to-end design and deployment of production-grade AI solutions,
+            driving measurable business impact across NLP, LLM fine-tuning, and intelligent automation.
+          </p>
+          <div class="exp-highlights">
+            <div class="exp-highlight">
+              <span><strong>n8n AI Agent Automation:</strong> Architected multi-agent workflows with deep expertise in JSON schema design, agent chaining, and tool/memory integration. Built a fully autonomous Password Reset Agent with secure OTP generation and token-based authentication.</span>
+            </div>
+            <div class="exp-highlight">
+              <span><strong>GCP Vertex AI — Gemini Fine-Tuning & RAG:</strong> Fine-tuned a Gemini model on Google Cloud Vertex AI for domain-specific tasks. Designed a RAG agent integrating embedding models and vector search — significantly reducing hallucination rates.</span>
+            </div>
+            <div class="exp-highlight">
+              <span><strong>AWS Cloud AI:</strong> Leveraged SageMaker for scalable spaCy model training and Lambda for serverless inference endpoints — enabling cost-efficient, auto-scaling deployments.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-label reveal">Projects</div>
+      <h2 class="section-title reveal reveal-delay-1">Things I've built.</h2>
+
+      <div class="projects-grid">
+
+        <!-- Card 1: Qwen LLM Fine-Tuning (FEATURED) -->
+        <div class="project-card featured reveal">
+          <div class="metric-badge">+5% BERTScore F1</div>
+          <div class="project-card-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=900&q=80"
+              alt="LLM Fine-Tuning"
+              class="project-card-image"
+              loading="lazy"
+            >
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-header">
+              <div class="project-card-title">Qwen 2.5 LLM Fine-Tuning with QLoRA</div>
+            </div>
+            <p class="project-card-desc">
+              Fine-tuned a Qwen 2.5 0.5B instruction model on local hardware using QLoRA
+              (4-bit quantization + LoRA adapters via PEFT/TRL) on the DialogSum conversational
+              summarisation dataset. Achieved a <strong>+5% gain in BERTScore F1</strong>
+              (0.8381 → 0.8805) — demonstrating resource-efficient LLM specialization.
+            </p>
+            <div class="project-card-footer">
+              <div class="project-tags-row">
+                <span class="tag accent">PyTorch</span>
+                <span class="tag">QLoRA</span>
+                <span class="tag">PEFT / TRL</span>
+                <span class="tag">HuggingFace</span>
+                <span class="tag">BERTScore</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/BleedingEdg3/fine_tuning_qwen_0.5B" target="_blank" rel="noopener" class="icon-btn" title="Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: n8n AI Agent -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=700&q=80"
+              alt="AI Agent Automation"
+              class="project-card-image"
+              loading="lazy"
+            >
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-header">
+              <div class="project-card-title">n8n AI Agent & GCP Vertex RAG</div>
+            </div>
+            <p class="project-card-desc">
+              Designed and deployed a multi-agent password reset workflow in n8n with
+              OTP generation and token auth. Separately, built a Gemini-based RAG agent
+              on GCP Vertex AI with vector search — significantly reducing LLM hallucinations.
+            </p>
+            <div class="project-card-footer">
+              <div class="project-tags-row">
+                <span class="tag accent">n8n</span>
+                <span class="tag">GCP Vertex AI</span>
+                <span class="tag">Gemini</span>
+                <span class="tag">RAG</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Insurance Claim -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card-image-wrap">
+            <img
+              src="images/output3.png"
+              alt="Insurance Claim Prediction"
+              class="project-card-image"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=700&q=80'"
+            >
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-header">
+              <div class="project-card-title">Insurance Claim Prediction</div>
+              <img src="images/icons/insurance1.gif" alt="" class="project-card-icon" onerror="this.style.display='none'">
+            </div>
+            <p class="project-card-desc">
+              ML web application predicting insurance claim approvals using Decision Trees
+              and Random Forest. Achieved <strong>89% accuracy</strong> — a 20% improvement
+              over baseline predictions. Visualized with Matplotlib.
+            </p>
+            <div class="project-card-footer">
+              <div class="project-tags-row">
+                <span class="tag">Random Forest</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/BleedingEdg3/Insurance-Claim-Prediction" target="_blank" rel="noopener" class="icon-btn" title="Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Real-Time Chat -->
+        <div class="project-card reveal">
+          <div class="project-card-image-wrap">
+            <img
+              src="images/Rtca.png"
+              alt="Real-Time Chat App"
+              class="project-card-image"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1611606063065-ee7946f0787a?w=700&q=80'"
+            >
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-header">
+              <div class="project-card-title">Real-Time Chat Application</div>
+              <img src="images/icons/chat1.gif" alt="" class="project-card-icon" onerror="this.style.display='none'">
+            </div>
+            <p class="project-card-desc">
+              Live messaging platform with bidirectional WebSocket communication via Socket.IO.
+              Flask backend, dynamic HTML/JS frontend. Message latency consistently
+              under <strong>200ms</strong>.
+            </p>
+            <div class="project-card-footer">
+              <div class="project-tags-row">
+                <span class="tag">Socket.IO</span>
+                <span class="tag">Flask</span>
+                <span class="tag">WebSockets</span>
+                <span class="tag">Node.js</span>
+              </div>
+              <div class="project-links">
+                <a href="chat-app/index.html" target="_blank" class="icon-btn" title="Live Demo">
+                  <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+                <a href="https://github.com/BleedingEdg3/Real-Time-Chat-App" target="_blank" rel="noopener" class="icon-btn" title="Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Handwritten Digit -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-card-image-wrap">
+            <img
+              src="images/HDR1.png"
+              alt="Handwritten Digit Recognition"
+              class="project-card-image"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1527474305487-b87b222841cc?w=700&q=80'"
+            >
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-header">
+              <div class="project-card-title">Handwritten Digit Recognition</div>
+              <img src="images/icons/digit1.gif" alt="" class="project-card-icon" onerror="this.style.display='none'">
+            </div>
+            <p class="project-card-desc">
+              CNN-based MNIST digit classifier achieving <strong>97% test accuracy</strong>.
+              Used TensorFlow/Keras with Logistic Regression and SVM baselines. Supports
+              real-time input recognition.
+            </p>
+            <div class="project-card-footer">
+              <div class="project-tags-row">
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Keras</span>
+                <span class="tag">CNNs</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/NastyMafia/HDR" target="_blank" rel="noopener" class="icon-btn" title="Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Sentiment Analysis -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-card-image-wrap">
+            <img
+              src="images/senti_img1.png"
+              alt="Sentiment Analysis"
+              class="project-card-image"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1614680376739-414d95ff43df?w=700&q=80'"
+            >
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-header">
+              <div class="project-card-title">Sentiment Analysis</div>
+              <img src="images/icons/sentiment1.gif" alt="" class="project-card-icon" onerror="this.style.display='none'">
+            </div>
+            <p class="project-card-desc">
+              NLP model detecting depressive/negative sentiment in social media posts.
+              NLTK preprocessing, Logistic Regression, WordCloud visualizations.
+              <strong>82% accuracy</strong> on 10,000+ tweets.
+            </p>
+            <div class="project-card-footer">
+              <div class="project-tags-row">
+                <span class="tag">NLTK</span>
+                <span class="tag">NLP</span>
+                <span class="tag">WordCloud</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/BleedingEdg3/Sentiment_Analysis" target="_blank" rel="noopener" class="icon-btn" title="Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7: Sales Analysis -->
+        <div class="project-card reveal">
+          <div class="project-card-image-wrap">
+            <img
+              src="images/SA1.png"
+              alt="Sales Analysis"
+              class="project-card-image"
+              loading="lazy"
+              onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&q=80'"
+            >
+          </div>
+          <div class="project-card-body">
+            <div class="project-card-header">
+              <div class="project-card-title">Sales Analysis & Forecasting</div>
+              <img src="images/icons/sales1.gif" alt="" class="project-card-icon" onerror="this.style.display='none'">
+            </div>
+            <p class="project-card-desc">
+              EDA on historical sales data using Pandas, Seaborn, and Matplotlib.
+              Interactive dashboards built in Tableau and Power BI. Resulted in a
+              <strong>15% forecast accuracy improvement</strong>.
+            </p>
+            <div class="project-card-footer">
+              <div class="project-tags-row">
+                <span class="tag">Pandas</span>
+                <span class="tag">Tableau</span>
+                <span class="tag">Power BI</span>
+                <span class="tag">EDA</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/BleedingEdg3/Sales_Analysis" target="_blank" rel="noopener" class="icon-btn" title="Source Code">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="section-label reveal">Contact</div>
+        <h2 class="section-title reveal reveal-delay-1">Let's work together.</h2>
+        <p class="reveal reveal-delay-2">
+          I'm open to data science, ML engineering, and software development roles.
+          Have a project or opportunity in mind? Let's talk.
+        </p>
+
+        <div class="contact-links">
+          <a href="mailto:Nitishrohilla77624@gmail.com" class="contact-link reveal reveal-delay-1">
+            <div class="contact-link-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">Email</div>
+              <div class="contact-link-value">Nitishrohilla77624@gmail.com</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/nitish-rohilla/" target="_blank" rel="noopener" class="contact-link reveal reveal-delay-2">
+            <div class="contact-link-icon"><i class="fab fa-linkedin"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">LinkedIn</div>
+              <div class="contact-link-value">nitish-rohilla</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+
+          <a href="https://github.com/BleedingEdg3" target="_blank" rel="noopener" class="contact-link reveal reveal-delay-3">
+            <div class="contact-link-icon"><i class="fab fa-github"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">GitHub</div>
+              <div class="contact-link-value">BleedingEdg3</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+
+          <a href="https://wa.me/917206368408" target="_blank" rel="noopener" class="contact-link reveal reveal-delay-4">
+            <div class="contact-link-icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">WhatsApp</div>
+              <div class="contact-link-value">+91 72063 68408</div>
+            </div>
+            <i class="fas fa-arrow-right contact-link-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer>
+    <div class="container">
+      <div class="footer-left">© 2025 <span>Nitish Rohilla</span>. Designed & built from scratch.</div>
+      <div class="footer-right">Gurugram, India 🇮🇳</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
