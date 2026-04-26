@@ -902,7 +902,7 @@ body.light .hero::before {
 
 .exp-period {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.8rem;
   color: var(--text-dim);
   line-height: 1.5;
   margin-bottom: 8px;
@@ -917,14 +917,14 @@ body.light .hero::before {
 
 .exp-content h3 {
   font-family: var(--font-mono);
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: var(--text);
   margin-bottom: 10px;
 }
 
 .exp-content p {
-  font-size: 0.88rem;
+  font-size: 1rem;
   color: var(--text-dim);
   line-height: 1.7;
   margin-bottom: 16px;
@@ -940,7 +940,7 @@ body.light .hero::before {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 0.82rem;
+  font-size: 1rem;
   color: var(--text-dim);
   line-height: 1.5;
 }
@@ -950,7 +950,7 @@ body.light .hero::before {
   color: var(--accent);
   flex-shrink: 0;
   margin-top: 1px;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .exp-highlight strong {
