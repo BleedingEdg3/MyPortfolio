@@ -3,7 +3,7 @@
    Dark-first, monospace-accented, sharp & precise
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
 
 /* ── CSS Variables ─────────────────────────────────────────── */
 :root {
@@ -19,7 +19,7 @@
   --accent-2:  #00c8ff;
   --accent-3:  #7c3aed;
   --warn:      #ff6b35;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-mono: 'Nova Mono', monospace;
   --font-body: 'DM Sans', sans-serif;
   --radius:    4px;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
