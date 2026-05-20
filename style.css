@@ -1,9 +1,9 @@
 /* ============================================================
-   NITISH PORTFOLIO — Terminal Luxe
+   NITISH PORTFOLIO
    Dark-first, monospace-accented, sharp & precise
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Passions+Conflict&display=swap');
 
 /* ── CSS Variables ─────────────────────────────────────────── */
 :root {
@@ -19,7 +19,7 @@
   --accent-2:  #00c8ff;
   --accent-3:  #7c3aed;
   --warn:      #ff6b35;
-  --font-mono: 'Passions Conflict', monospace;
+  --font-mono: 'Google Sans Code', monospace;
   --font-body: 'DM Sans', sans-serif;
   --radius:    4px;
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
